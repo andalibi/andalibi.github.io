@@ -1,0 +1,275 @@
+article {
+  background-color: #f3f3f3;
+  margin: 10px auto;
+  padding: 5mm;
+  max-width: 1200px; }
+
+/**********************************************************************************************************************/
+/* section style                                                                                                      */
+/**********************************************************************************************************************/
+section {
+  margin-bottom: 5mm; }
+
+section .header {
+  height: 12mm;
+  width: 100%;
+  position: relative; }
+
+section .header .header-line {
+  background-color: #666;
+  height: 1.5mm;
+  left: 0;
+  position: absolute;
+  top: 5.5mm;
+  width: 100%;
+  z-index: 100; }
+
+section .header .header-icon {
+  background-color: #666;
+  border-radius: 50%;
+  padding: 1mm;
+  height: 12mm;
+  width: 12mm;
+  z-index: 300; }
+
+section .header .header-icon img {
+  display: block;
+  fill: #fff;
+  height: auto;
+  margin: 1mm auto;
+  position: relative;
+  width: 8mm;
+  z-index: 400; }
+
+section .header .header-title {
+  background-color: #666;
+  border-radius: 0 1mm 1mm 0;
+  color: #f7f7f7;
+  font-size: 5mm;
+  font-weight: 600;
+  height: 7mm;
+  left: 10mm;
+  line-height: 0;
+  padding: 4mm 3mm 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 2.5mm;
+  width: 50mm;
+  z-index: 200; }
+
+section .content {
+  padding: 2mm 0 0 12mm; }
+
+.logo {
+  background-color: red;
+  -webkit-mask: url(assets/icons/skills.svg) no-repeat center;
+  mask: url(assets/icons/skills.svg) no-repeat center; }
+
+div.star-rating {
+  display: inline-block; }
+
+div.star-rating span {
+  color: #bfbebe;
+  display: inline-block; }
+
+div.star-rating span:first-of-type {
+  margin-left: 1mm; }
+
+div.star-rating span.active {
+  color: #2a2725; }
+
+/**********************************************************************************************************************/
+/* component style                                                                                                    */
+/**********************************************************************************************************************/
+section.top-section {
+  height: 30mm;
+  position: relative; }
+
+section.top-section img.profile-pic {
+  border: 1px solid #000;
+  border-radius: 50%;
+  height: 30mm;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 30mm; }
+
+section.top-section h2 {
+  font-size: 9mm;
+  font-weight: 900;
+  left: 37mm;
+  margin: 0;
+  position: absolute;
+  top: 4mm; }
+
+section.top-section h3 {
+  color: #7b7b7b;
+  font-size: 5mm;
+  font-weight: 700;
+  left: 44mm;
+  position: absolute;
+  top: 11mm; }
+
+section.top-section .contact {
+  font-size: 3.2mm;
+  font-weight: 500;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0.4mm;
+  width: 70mm; }
+
+section.top-section .contact img {
+  height: 6mm;
+  margin-right: 0.5mm;
+  position: relative;
+  top: 1mm;
+  width: 6mm; }
+
+.profile {
+  font-size: 10pt;
+  line-height: 1.5; }
+
+.profile .profile-summary {
+  margin: 0; }
+
+section.technical-skills .skills-type-title {
+  border-bottom: 1px solid #7b7b7b;
+  color: #7b7b7b;
+  font-size: 4mm;
+  font-weight: 700;
+  margin-bottom: 1mm; }
+
+section.technical-skills .programming-skill {
+  font-size: 3.3mm;
+  margin: 0 0 3mm 7mm; }
+
+section.technical-skills .programming-skill .main-title {
+  font-weight: 700;
+  position: relative; }
+
+section.technical-skills .programming-skill .main-title .star-rating {
+  position: absolute;
+  left: 67px; }
+
+section.technical-skills .programming-skill .sub-title {
+  color: #7b7b7b;
+  font-weight: 500; }
+
+section.technical-skills ul {
+  list-style: none;
+  margin: 0 0 4mm 0;
+  padding-left: 7mm; }
+
+section.technical-skills ul li {
+  display: inline-block;
+  font-size: 3.3mm;
+  min-width: 10mm;
+  padding: 0 3mm;
+  position: relative; }
+
+section.technical-skills ul li::before {
+  background-color: #666;
+  border-radius: 50%;
+  content: "";
+  height: 1.5mm;
+  width: 1.5mm;
+  position: absolute;
+  left: 0mm;
+  top: 1mm;
+  padding: 0;
+  line-height: 0; }
+
+section.language-skills .main-title {
+  border-bottom: 1px solid #2a2725;
+  color: #6a6866;
+  font-size: 4mm;
+  font-weight: 700;
+  margin-bottom: 1mm; }
+
+section.language-skills ul {
+  margin: 0;
+  padding: 0; }
+
+section.language-skills ul li {
+  color: #3f3d3b;
+  display: inline-block;
+  font-size: 3.3mm;
+  min-width: 10mm;
+  padding: 0 5mm;
+  position: relative; }
+
+section.language-skills ul li img {
+  height: 5mm;
+  margin-right: 1.5mm;
+  position: relative;
+  top: 1mm;
+  width: 5mm; }
+
+div.work-experience {
+  border-bottom: 1px solid #7b7b7b;
+  margin: 2mm 0 2mm 0;
+  padding-bottom: 2mm; }
+
+div.work-experience:first-child {
+  margin-top: 0; }
+
+div.work-experience:last-child {
+  border-bottom: none; }
+
+div.work-experience img {
+  height: 5mm;
+  margin-right: 0.5mm;
+  position: relative;
+  top: 1mm;
+  width: 5mm; }
+
+div.work-experience div.comany-name {
+  font-size: 4mm;
+  font-weight: 700; }
+
+div.work-experience div.comany-position {
+  display: inline-block;
+  font-size: 3.3mm;
+  font-weight: 500;
+  margin: 0.5mm 0 1.5mm 7mm;
+  width: 50mm; }
+
+div.work-experience div.comany-dates-employed {
+  display: inline-block;
+  font-size: 3.3mm;
+  font-weight: 500;
+  margin: 0.5mm 0 1.5mm 7mm;
+  width: 50mm; }
+
+div.work-experience div.comany-projects {
+  font-size: 3.3mm;
+  font-weight: 500;
+  margin: 0 0 0 7mm; }
+
+div.work-experience div.comany-projects ul {
+  margin: 0;
+  padding: 0 0 0 7mm; }
+
+div.work-experience div.comany-projects ul li {
+  color: #3f3d3b;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0.5mm;
+  padding: 0 3mm;
+  position: relative;
+  text-transform: capitalize; }
+
+div.work-experience div.comany-projects ul li::before {
+  background-color: #666;
+  border-radius: 50%;
+  content: "";
+  height: 1.5mm;
+  width: 1.5mm;
+  position: absolute;
+  left: 0mm;
+  top: 1mm;
+  padding: 0;
+  line-height: 0; }

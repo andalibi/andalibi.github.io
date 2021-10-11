@@ -1,0 +1,32 @@
+.flex-wrapper {
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  height: calc(100vh - 50px); }
+
+.container {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto; }
+
+.container h1 {
+  font-size: 45px;
+  text-align: center; }
+
+.container div.picture-container {
+  background-color: #fff;
+  border: 1px solid #f6f6f6;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  height: 150px;
+  margin: 10px auto;
+  width: 150px; }
+
+.container div.picture-container img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  height: auto;
+  width: 150px; }
